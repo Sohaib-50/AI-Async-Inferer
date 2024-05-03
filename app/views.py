@@ -39,7 +39,7 @@ class PredictView(APIView):
     def get(self, request, *args, **kwargs):
         return Response({
             "message": "Usage: send post request with model_input (Any) and optionally async_mode (bool) params.",
-    
+
         })
     
 
